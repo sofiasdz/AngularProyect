@@ -1,5 +1,5 @@
 {
-  "name": "angular-hola-mundo",
+  "name": "angular-wishlist",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -21,7 +21,6 @@
     "@angular/router": "~9.1.0",
     "bootstrap": "^4.4.1",
     "rxjs": "~6.5.4",
-    "s-": "0.0.1",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
