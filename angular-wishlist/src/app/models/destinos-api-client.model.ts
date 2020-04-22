@@ -12,5 +12,8 @@ export class DestinosApiClient {
         }
     getAll():  DestinoViaje[]{
         return this.destinos;
+    }
+    getById(id: string):DestinoViaje {
+        return this.destinos.filter(function(d) {return d.id.toString()==id;})[0];
     }    
 }
