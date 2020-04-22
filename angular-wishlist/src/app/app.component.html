@@ -1,4 +1,9 @@
 <div class="container content">
+  <div class="page header">
+   <h1>Ruteo Simple</h1>
+   <div class="navLinks">
+     <a [routerLink]="['/home']">home</a>
+   </div>
   <div class="row">
     <h1>
 
@@ -6,5 +11,5 @@
       
     </h1>
   </div>
-  <app-lista-destinos></app-lista-destinos>
+  <router-outlet></router-outlet>
 </div>
